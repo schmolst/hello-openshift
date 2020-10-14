@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-openshift-config
+data:
+  application.properties: |
+    name=Schmolz
+    surname=Steffen
+    bam=in-your-face
+---
